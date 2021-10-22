@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: 'Arial', cursive;
+    background-color: rgb(218, 203, 203);
+}
+
+.nav {
+    background-color: #727781;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .container .imglogo {
+    color: #fff;
+}
+
+.nav .container ul {
+    list-style: none;
+}
+
+.nav .container ul li {
+    display: inline-block;
+}
+
+.nav .container ul li a {
+    display: block;
+    padding: 20px;
+    color: #EEE;
+    text-decoration: none;
+}
+
+.nav .container ul li a:hover {
+    background-color: #dac9c9;
+}
+
+
+/* start head*/
+
+.header {
+    background-image: url(./css/images\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.header .overlay {
+    background: rgba(49, 55, 61, .2);
+}
+
+.header .container {
+    padding: 80px 0;
+}
+
+.header .container h1 {
+    font-size: 40px;
+    color: #FFF;
+    margin: 28px 0 10px;
+}
+
+.header .container p {
+    color: #EEE;
+    margin-bottom: 28px;
+}
+
+.header .container button {
+    width: 25%;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #656574;
+    border: solid 1px #73737c;
+    font-size: 18px;
+    color: #FFF;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.header .container button:hover {
+    background-color: transparent;
+}
+
+
+/*features*/
+
+.features .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 28px 0;
+}
+
+.features .container div {
+    width: 30%;
+    height: 200px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.features .container div:hover {
+    box-shadow: 2px 2px 14px #121212;
+}
+
+.features .container .features-one {
+    background-image: url(./css/images\ \(2\).jpg);
+}
+
+.features .container .features-two {
+    background-image: url(./css/images\ \(3\).jpg);
+}
+
+.features .container .features-three {
+    background-image: url(./css/download\ \(3\).jpg);
+}
+
+.products .container {
+    padding: 25px 0;
+}
+
+.products .container h2 {
+    color: #666;
+    font-size: 48px;
+}
+
+.products .container .pro-padding {
+    padding: 40px 0;
+}
+
+.products .container .product-one {
+    width: 50%;
+    height: 555px;
+    margin: auto;
+    background-image: url(./css/how-to-get-your-trips-sponsored.jpg);
+    background-size: cover;
+    transition: .5s;
+}
+
+.products .container .product-one:hover {
+    box-shadow: 2px 2px 14px #121212;
+}
+
+
+/************** End The Products ************/
+
+
+/************** Start The Videos ************/
+
+.videos .container {
+    padding: 25px 0;
+}
+
+.videos .container h2 {
+    font-size: 48px;
+    color: #666;
+}
+
+.videos .container .vid-padding {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.videos .container .vid-padding div {
+    width: 32%;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.videos .container .vid-padding div:hover {
+    box-shadow: 2px 2px 14px #121212;
+}
+
+.videos .container .vid-padding .vid1 {
+    background-image: url(./css/download\ \(3\).jpg);
+    background-size: cover;
+}
+
+.videos .container .vid-padding .vid2 {
+    background-image: url(./css/download.jpg);
+    background-size: cover;
+}
+
+.videos .container .vid-padding .vid3 {
+    background-image: url(./css/images\ \(6\).jpg);
+    background-size: cover;
+}
+
+
+/************** End The Videos ************/
+
+
+/************** Start The Footer **********/
+
+.footer {
+    background-color: #727781;
+}
+
+.footer .container {
+    text-align: center;
+}
+
+.footer .container ul {
+    list-style: none;
+}
+
+.footer .container ul li {
+    display: inline-block;
+}
+
+.footer .container ul li a {
+    display: block;
+    padding: 18px;
+    color: #EEE;
+    text-decoration: none;
+}
+
+.footer .container ul li a:hover {
+    text-decoration: underline;
+}
