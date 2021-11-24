@@ -1,0 +1,267 @@
+.upper-bar {
+    background-color: rgb(12, 28, 59);
+    color: rgb(253, 251, 246);
+    padding: 10px;
+}
+
+.upper-bar .get-quote {
+    display: inline-block;
+    border: 1px solid rgb(82, 8, 8);
+    padding: 2px 10px;
+    margin-left: 20px;
+}
+
+.navbar-brand span {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.navbar-brand span:first-child {
+    color: rgb(12, 28, 59);
+}
+
+.navbar-brand span:last-child {
+    color: rgb(80, 12, 12);
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: rgb(76, 106, 206);
+    font-weight: bold;
+}
+
+.slider {
+    background-color: #DDD;
+}
+
+.slider .carousel-item {
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.slider .carousel-one {
+    background-image: url('images/Home-Office.png');
+}
+
+.slider .carousel-two {
+    background-image: url('images/6a401964d9fa539d7e73ff5833a89a16.jpg');
+}
+
+.slider .carousel-three {
+    background-image: url('images/200220090015-organizeddesk.jpg');
+}
+
+.slider .carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.slider .carousel-inner h1 {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    z-index: 3;
+    max-width: 800px;
+    line-height: 1.5;
+    left: 100px;
+}
+
+.slider .carousel-inner h1 span {
+    background-color: rgb(80, 12, 12);
+    color: white;
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+body {
+    height: 2000px;
+}
+
+.features i {
+    background-color: rgb(80, 12, 12);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.features h3 {
+    color: rgb(12, 28, 59);
+    font-size: 20px;
+}
+
+.features p {
+    color: grey;
+}
+
+.overview {
+    padding: 100px 0;
+    background-color: #DDD;
+}
+
+.overview .h1 {
+    color: rgb(12, 28, 59);
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.overview p {
+    line-height: 2;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto 15px;
+    color: gray;
+}
+
+.overview h4 {
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    color: rgb(76, 106, 206);
+}
+
+.overview button {
+    background-color: rgb(80, 12, 12);
+    ;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.featured-work {
+    padding: 100px 0;
+}
+
+.featured-work h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.featured-work p {
+    line-height: 1.6;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto 15px;
+    color: gray;
+}
+
+.featured-work ul {
+    margin-top: 40px;
+}
+
+.featured-work ul li {
+    padding: 10px 20px;
+    color: rgb(8, 19, 39);
+    background-color: #DDD;
+    border: 2px solid rgb(80, 12, 12);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.featured-work ul li.active,
+.featured-work ul li:hover {
+    color: rgb(12, 28, 59);
+    background-color: rgb(80, 12, 12);
+    border: 2px solid rgb(80, 12, 12);
+    ;
+}
+
+.featured-work ul li:hover {
+    cursor: pointer;
+}
+
+.featured-work .shuffle-imag .row {
+    margin: 0;
+}
+
+.featured-work .shuffle-imag .row .col-sm {
+    padding: 0;
+}
+
+.featured-work .row img {
+    width: 100%;
+}
+
+.choose-us .col-6:last-child {
+    background-color: rgb(12, 28, 59);
+    color: beige;
+}
+
+.choose-us .col-6 button {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    margin: 0 0 0 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(80, 12, 12);
+    border: 2px solid black;
+    color: white;
+}
+
+.state {
+    padding: 100px 0;
+    color: rgb(12, 28, 59);
+}
+
+.state .span1 {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.state .p1 {
+    color: rgb(80, 12, 12);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: rgb(12, 28, 59);
+    padding: 50px 0;
+    font-size: 20px;
+}
+
+.contact p {
+    margin: 0;
+    color: white;
+}
+
+.contact button {
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(80, 12, 12);
+    padding: 6px 15px 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form {
+    border: 2px solid rgb(12, 28, 59);
+    background-color: #DDD;
+}
+
+.footer {
+    background-color: rgb(12, 28, 59);
+    color: aliceblue;
+}
+
+.footer .nav a {
+    padding: 10px;
+}
+
+.footer .nav li {
+    padding: 10px;
+}
